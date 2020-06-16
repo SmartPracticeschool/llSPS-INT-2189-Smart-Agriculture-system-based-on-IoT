@@ -7,7 +7,7 @@ import ibmiotf.device
 organization = "9vgw8s" #replace the ORG ID
 deviceType = "NodeMCU"#replace the Device type wi
 deviceId = "1234" #replace Device ID
-authMethod = "use-token-auth"
+authMethod = "token"
 authToken = "123456789" #Replace the authtoken
 
 def myCommandCallback(cmd): # function for Callback
